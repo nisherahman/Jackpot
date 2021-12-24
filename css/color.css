@@ -1,0 +1,464 @@
+/*===========================
+    color picker part starts
+============================*/
+.color-picker{
+    width:170px;
+    height:70px;
+    background:#ccc;
+    position:fixed;
+    top:400px;
+    right:-170px;
+    z-index:100000;
+    transition:all linear 0.4s;
+    -webkit-transition:all linear 0.4s;
+    -moz-transition:all linear 0.4s;
+    -ms-transition:all linear 0.4s;
+    -o-transition:all linear 0.4s;
+}
+.color-pos{
+    right:0;
+}
+.color-picker .color-btn{
+    width:30px;
+    height:30px;
+    background:#a60084;
+    position:absolute;
+    top:24px;
+    left:-30px;
+}
+.color-picker .color-btn i{
+    width:30px;
+    height:30px;
+    color:#fff;
+    text-align:center;
+    line-height:30px;
+    cursor:pointer;
+}
+.color-picker ul li{
+    width:30px;
+    height:30px;
+    border-radius:50%;;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    cursor:pointer;
+}
+.color-picker ul li.default{
+    background:#150035;
+}
+.color-picker ul li.orange{
+    background:#fa8231;
+}
+.color-picker ul li.red{
+    background:#ff4d4d;
+}
+.color-picker ul li.pink{
+    background:#FDA7DF;
+}
+.color-picker ul li.green{
+    background:#32ff7e;
+}
+.color-picker ul li.sky{
+    background:#12CBC4;
+}
+.color-picker ul li.yellow{
+    background:#fff200;
+}
+.color-picker ul li.violet{
+    background:#e056fd;
+}
+.color-picker ul li.blue{
+    background:#546de5;
+}
+/*===========================
+   color picker part  ends
+============================*/
+
+/*===========================
+   color option part starts
+============================*/
+
+    /* orange color starts */
+    .orange .navbar-light .navbar-nav .nav-link:hover{
+        color: #fa8231;
+    }
+    .orange .navbar .btn a:hover,
+    .orange .navbar .btn a
+    {
+        background: linear-gradient( to bottom,#fa8231,#ff9f43);
+        /* box-shadow: 0px 6px 0px 0px rgba(253, 150, 68,1) */
+    }
+    .orange #banner .banner-text .btn a,
+    .orange #banner .banner-text .btn a:hover
+    {
+        background: linear-gradient( to bottom,#fa8231,#ff9f43);
+    }
+    .orange #banner .banner-text h1{
+        color: #fa8231;
+    }
+    .orange #game .game-item .game-ovarley .btn a:hover,
+    .orange #game .game-item .game-ovarley .btn a
+    {
+        background: linear-gradient( to bottom,#fa8231,#ff9f43);
+    }
+    .orange #game .game-item .game-ovarley .btn a,
+    .orange #game .game-item .game-ovarley .btn a:hover
+    {
+        background: linear-gradient( to bottom,#fa8231,#ff9f43);
+    }
+    .orange #spin .spin-text .btn a,
+    .orange #spin .spin-text .btn a:hover{
+        background: linear-gradient( to bottom,#fa8231,#ff9f43);
+    }
+
+    .orange #plan .plan-item .item-btn a,
+    .orange #plan .plan-item .item-btn a:hover,
+    .orange #plan .plan-item:hover .item-btn a
+    {
+        background: linear-gradient( to bottom,#fa8231,#ff9f43);
+    }
+    .orange #plan .plan-item .item-head h5{
+        background: linear-gradient( to bottom,#fa8231,#ff9f43);
+    }
+    .orange #footer .about-item .social-icon i,
+    .orange #footer .about-item .social-icon i:hover
+    {
+        background: linear-gradient( to bottom,#fa8231,#ff9f43);
+    }
+    /* orange color ends */
+
+    /* red color starts */
+    .red .navbar-light .navbar-nav .nav-link:hover {
+        color: #ff4d4d;
+    }
+    .red .navbar .btn a:hover,
+    .red .navbar .btn a
+    {
+        background: linear-gradient( to bottom,#EA2027,#ff4d4d);
+    }
+    .red #banner .banner-text .btn a,
+    .red #banner .banner-text .btn a:hover
+    {
+        background: linear-gradient( to bottom,#EA2027,#ff4d4d);
+    }
+    .red #banner .banner-text h1{
+        color: #ff4d4d;
+    }
+    .red #game .game-item .game-ovarley .btn a:hover,
+    .red #game .game-item .game-ovarley .btn a
+    {
+        background: linear-gradient( to bottom,#EA2027,#ff4d4d);
+    }
+    .red #game .game-item .game-ovarley .btn a,
+    .red #game .game-item .game-ovarley .btn a:hover
+    {
+        background: linear-gradient( to bottom,#EA2027,#ff4d4d);
+    }
+    .red #spin .spin-text .btn a,
+    .red #spin .spin-text .btn a:hover{
+        background: linear-gradient( to bottom,#EA2027,#ff4d4d);
+    }
+    .red #plan .plan-item .item-btn a,
+    .red #plan .plan-item .item-btn a:hover,
+    .red #plan .plan-item:hover .item-btn a
+    {
+        background: linear-gradient( to bottom,#EA2027,#ff4d4d);
+    }
+    .red #plan .plan-item .item-head h5{
+        background: linear-gradient( to bottom,#EA2027,#ff4d4d);
+    }
+    .red #footer .about-item .social-icon i,
+    .red #footer .about-item .social-icon i:hover
+    {
+        background: linear-gradient( to bottom,#EA2027,#ff4d4d);
+    }
+    /* red color ends */
+
+    /* pink color starts */
+    .pink .navbar-light .navbar-nav .nav-link:hover{
+        color: #FDA7DF;
+    }
+    .pink .navbar .btn a:hover,
+    .pink .navbar .btn a
+    {
+        background: linear-gradient( to bottom,#FDA7DF,#ff4d4d);
+    }
+    .pink  #banner .banner-text .btn a,
+    .pink #banner .banner-text .btn a:hover
+    {
+        background: linear-gradient( to bottom,#FDA7DF,#ff4d4d);
+    }
+    .pink  #banner .banner-text h1{
+        color: #FDA7DF;
+    }
+    .pink  #game .game-item .game-ovarley .btn a:hover,
+    .pink  #game .game-item .game-ovarley .btn a
+    {
+        background: linear-gradient( to bottom,#FDA7DF,#ff4d4d);
+    }
+    .pink  #game .game-item .game-ovarley .btn a,
+    .pink #game .game-item .game-ovarley .btn a:hover
+    {
+        background: linear-gradient( to bottom,#FDA7DF;#ff4d4d);
+    }
+    .pink #spin .spin-text .btn a,
+    .pink #spin .spin-text .btn a:hover{
+        background: linear-gradient( to bottom,#FDA7DF,#ff4d4d);
+    }
+    .pink #plan .plan-item .item-btn a,
+    .pink #plan .plan-item .item-btn a:hover,
+    .pink #plan .plan-item:hover .item-btn a
+    {
+        background: linear-gradient( to bottom,#FDA7DF,#ff4d4d);
+    }
+    .pink #plan .plan-item .item-head h5{
+        background: linear-gradient( to bottom,#FDA7DF,#ff4d4d);
+    }
+    .pink#footer .about-item .social-icon i,
+    .pink #footer .about-item .social-icon i:hover
+    {
+        background: linear-gradient( to bottom,#FDA7DF,#ff4d4d);
+    }
+    /* pink color ends */
+
+    /* green color starts */
+    .green .navbar-light .navbar-nav .nav-link:hover,
+    .green .navbar .btn a
+    {
+        color: #32ff7e;
+    }
+    .green .navbar .btn a:hover,
+    .green .navbar .btn a
+    {
+        background: linear-gradient( to bottom,#32ff7e,#4cd137);
+    }
+    .green  #banner .banner-text .btn a,
+    .green #banner .banner-text .btn a:hover
+    {
+        background: linear-gradient( to bottom,#32ff7e,#4cd137);
+    }
+    .green #banner .banner-text h1{
+        color: #32ff7e;
+    }
+    .green #game .game-item .game-ovarley .btn a:hover,
+    .green #game .game-item .game-ovarley .btn a
+    {
+        background: linear-gradient( to bottom,#32ff7e,#4cd137);
+    }
+    .green #game .game-item .game-ovarley .btn a,
+    .green #game .game-item .game-ovarley .btn a:hover
+    {
+        background: linear-gradient( to bottom,#32ff7e,#4cd137);
+    }
+    .green #spin .spin-text .btn a,
+    .green #spin .spin-text .btn a:hover{
+        background: linear-gradient( to bottom,#32ff7e,#4cd137);
+    }
+    .green #plan .plan-item .item-btn a,
+    .green #plan .plan-item .item-btn a:hover,
+    .green #plan .plan-item:hover .item-btn a
+    {
+        background: linear-gradient( to bottom,#32ff7e,#4cd137);
+    }
+    .green #plan .plan-item .item-head h5{
+        background: linear-gradient( to bottom,#32ff7e,#4cd137);
+    }
+    .green #footer .about-item .social-icon i,
+    .green #footer .about-item .social-icon i:hover
+    {
+        background: linear-gradient( to bottom,#32ff7e,#4cd137);
+    }
+    /* green color ends */
+
+    /* sky color starts */
+    .sky .navbar-light .navbar-nav .nav-link:hover {
+        color: #12CBC4;
+    }
+    .sky .navbar .btn a:hover,
+    .sky .navbar .btn a
+    {
+        background: linear-gradient( to bottom,#12CBC4,#45aaf2);
+    }
+    .sky #banner .banner-text .btn a,
+    .sky #banner .banner-text .btn a:hover
+    {
+        background: linear-gradient( to bottom,#12CBC4,#45aaf2);
+    }
+    .sky #banner .banner-text h1{
+        color: #12CBC4;
+    }
+    .sky #game .game-item .game-ovarley .btn a:hover,
+    .sky #game .game-item .game-ovarley .btn a
+    {
+        background: linear-gradient( to bottom,#12CBC4,#45aaf2);
+    }
+    .sky  #game .game-item .game-ovarley .btn a,
+    .sky #game .game-item .game-ovarley .btn a:hover
+    {
+        background: linear-gradient( to bottom,#12CBC4,#45aaf2);
+    }
+    .sky #spin .spin-text .btn a,
+    .sky #spin .spin-text .btn a:hover{
+        background: linear-gradient( to bottom,#12CBC4,#45aaf2);
+    }
+    .sky #plan .plan-item .item-btn a,
+    .sky #plan .plan-item .item-btn a:hover,
+    .sky #plan .plan-item:hover .item-btn a
+    {
+        background: linear-gradient( to bottom,#12CBC4,#45aaf2);
+    }
+    .sky #plan .plan-item .item-head h5{
+        background: linear-gradient( to bottom,#12CBC4,#45aaf2);
+    }
+    .sky #footer .about-item .social-icon i,
+    .sky #footer .about-item .social-icon i:hover
+    {
+        background: linear-gradient( to bottom,#12CBC4,#45aaf2);
+    }
+    /* sky color ends */
+
+    /* yellow color starts */
+    .yellow .navbar-light .navbar-nav .nav-link:hover {
+        color: #fff200;
+    }
+    .yellow .navbar .btn a:hover,
+    .yellow .navbar .btn a
+    {
+        background: linear-gradient( to bottom,#fff200,#fed330);
+    }
+    .yellow #banner .banner-text .btn a,
+    .yellow #banner .banner-text .btn a:hover
+    {
+        background: linear-gradient( to bottom,#fff200,#fed330);
+    }
+    .yellow #banner .banner-text h1{
+        color: #fff200;
+    }
+    .yellow #game .game-item .game-ovarley .btn a:hover,
+    .yellow #game .game-item .game-ovarley .btn a
+    {
+        background: linear-gradient( to bottom,#fff200,#fed330);
+    }
+    .yellow  #game .game-item .game-ovarley .btn a,
+    .yellow #game .game-item .game-ovarley .btn a:hover
+    {
+        background: linear-gradient( to bottom,#fff200,#fed330);
+    }
+    .yellow #spin .spin-text .btn a,
+    .yellow #spin .spin-text .btn a:hover{
+        background: linear-gradient( to bottom,#fff200,#fed330);
+    }
+    .yellow #plan .plan-item .item-btn a,
+    .yellow #plan .plan-item .item-btn a:hover,
+    .yellow #plan .plan-item:hover .item-btn a
+    {
+        background: linear-gradient( to bottom,#fff200,#fed330);
+    }
+    .yellow #plan .plan-item .item-head h5{
+        background: linear-gradient( to bottom,#fff200,#fed330);
+    }
+    .yellow #footer .about-item .social-icon i,
+    .yellow #footer .about-item .social-icon i:hover
+    {
+        background: linear-gradient( to bottom,#fff200,#fed330);
+    }
+    /* yellow color ends */
+
+    /*  violet color starts */
+    .violet .navbar-light .navbar-nav .nav-link:hover{
+        color: #e056fd;
+    }
+    .violet  .navbar .btn a:hover,
+    .violet  .navbar .btn a
+    {
+        background: linear-gradient( to bottom,#e056fd,#f368e0);
+    }
+    .violet  #banner .banner-text .btn a,
+    .violet  #banner .banner-text .btn a:hover
+    {
+        background: linear-gradient( to bottom,#e056fd,#f368e0);
+    }
+    .violet  #banner .banner-text h1{
+        color: #e056fd;
+    }
+    .violet  #game .game-item .game-ovarley .btn a:hover,
+    .violet  #game .game-item .game-ovarley .btn a
+    {
+        background: linear-gradient( to bottom,#e056fd,#f368e0);
+    }
+    .violet   #game .game-item .game-ovarley .btn a,
+    .violet  #game .game-item .game-ovarley .btn a:hover
+    {
+        background: linear-gradient( to bottom,#e056fd,#f368e0);
+    }
+    .violet  #spin .spin-text .btn a,
+    .violet  #spin .spin-text .btn a:hover{
+        background: linear-gradient( to bottom,#e056fd,#f368e0);
+    }
+    .violet  #plan .plan-item .item-btn a,
+    .violet  #plan .plan-item .item-btn a:hover,
+    .violet  #plan .plan-item:hover .item-btn a
+    {
+        background: linear-gradient( to bottom,#e056fd,#f368e0);
+    }
+    .violet  #plan .plan-item .item-head h5{
+        background: linear-gradient( to bottom,#e056fd,#f368e0);
+    }
+    .violet  #footer .about-item .social-icon i,
+    .violet  #footer .about-item .social-icon i:hover
+    {
+        background: linear-gradient( to bottom,#e056fd,#f368e0);
+    }
+    /* violet  color ends */
+
+    /*  blue color starts */
+    .blue .navbar-light .navbar-nav .nav-link:hover {
+        color: #546de5;
+    }
+    .blue  .navbar .btn a:hover,
+    .blue  .navbar .btn a
+    {
+        background: linear-gradient( to bottom,#546de5,#1B9CFC);
+    }
+    .blue  #banner .banner-text .btn a,
+    .blue  #banner .banner-text .btn a:hover
+    {
+        background: linear-gradient( to bottom,#546de5,#1B9CFC);
+    }
+    .blue  #banner .banner-text h1{
+        color: #546de5;
+    }
+    .blue  #game .game-item .game-ovarley .btn a:hover,
+    .blue  #game .game-item .game-ovarley .btn a
+    {
+        background: linear-gradient( to bottom,#546de5,#1B9CFC);
+    }
+    .blue  #game .game-item .game-ovarley .btn a,
+    .blue  #game .game-item .game-ovarley .btn a:hover
+    {
+        background: linear-gradient( to bottom,#546de5,#1B9CFC);
+    }
+    .blue  #spin .spin-text .btn a,
+    .blue  #spin .spin-text .btn a:hover{
+        background: linear-gradient( to bottom,#546de5,#1B9CFC);
+    }
+    .blue  #plan .plan-item .item-btn a,
+    .blue  #plan .plan-item .item-btn a:hover,
+    .blue  #plan .plan-item:hover .item-btn a
+    {
+        background: linear-gradient( to bottom,#546de5,#1B9CFC);
+    }
+    .blue  #plan .plan-item .item-head h5{
+        background: linear-gradient( to bottom,#546de5,#1B9CFC);
+    }
+    .blue  #footer .about-item .social-icon i,
+    .blue  #footer .about-item .social-icon i:hover
+    {
+        background: linear-gradient( to bottom,#546de5,#1B9CFC);
+    }
+    /* blue  color ends */
+
+/*===========================
+   color option part  ends
+============================*/

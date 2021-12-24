@@ -1,0 +1,1108 @@
+/*=========================
+extra small device satrts
+==========================*/
+@media(max-width:575px){
+    /*====================
+       nav part starts
+    =======================*/
+    .navbar .navbar-brand {
+        padding:0 15px !important;
+    }
+    .navbar .navbar-toggler{
+        border-color: #fcb100;
+        margin-left: 254px;
+        margin-top: -38px;
+    }
+    .navbar .navbar-toggler i{
+        color:#fcb100;
+    }
+    .navbar .navbar-brand img {
+        width: 60% !important;
+        margin-top: -15px!important;
+    }
+    .navbar-light .navbar-nav .nav-link{
+       margin-right: 178px;
+       margin-top: 21px;
+    }
+    .navbar .btn a{
+        margin-top:10px;
+    }
+    .navbar .btn a:first-child{
+        margin-right: 14px;
+        margin-left: 34px;
+        margin-top: 7px;
+    }
+    /*====================
+       nav part ends
+    =======================*/
+
+    /*====================
+       banner part starts
+    =======================*/
+    #banner {
+        padding-bottom: 190px !important;
+    }
+    #banner .banner-image img{
+        position:unset !important;
+        width: 100%;
+    }
+    #banner .banner-text h6 {
+        margin-top: -40px !important;
+        padding-bottom: 45px !important;
+        margin-left: -23px;
+    }
+    #banner .banner-text h1 {
+        font-size: 80px !important;
+        padding-bottom: 20px !important;
+        margin-left: -20px;
+    }
+    #banner .banner-text p{
+        margin-left: -72px;
+    }
+    #banner .banner-text .btn {
+        margin-left: -9px;
+        margin-top: 0px;
+    }
+    /*====================
+       banner part ends
+    =======================*/
+
+    /*=====================
+     game part satrts
+    ======================*/
+    #game .section-head h4{
+        font-size:30px;
+        margin-top: -128px;
+    }
+    #game .game-item{
+        margin-bottom:10px !important;
+    }
+    #game .game-item {
+        margin-bottom: -48px !important;
+        /* margin-top: 35px; */
+    }
+    /*=====================
+      game part ends
+    ======================*/
+
+    /*=====================
+     spin part starts
+    ======================*/
+    #spin{
+        padding-bottom:48px !important;
+    }
+    #spin .spin-image{
+        margin-left:7px;
+        margin-top:58px;
+    }
+    #spin .spin-text{
+        margin-left: 13px;
+        margin-top: 83px;
+    }
+    #spin .spin-text h4{
+        font-size:30px;
+    }
+    #spin .spin-text p {
+        margin-top: 33px;
+        width: 278px !important;
+    }
+    #spin .spin-text .btn a{
+        margin-top: 17px;
+    }
+        /* modal part strats */
+        .modal .modal-content .modal-form .form-label{
+            margin-top: 15px;
+           font-size:15px;
+        }
+        .form-control{
+            margin-bottom: -18px;
+        }
+        .modal .modal-footer .btn{
+            margin-right:63px;
+            transition:all linear 0.4s;
+            -webkit-transition:all linear 0.4s;
+            -moz-transition:all linear 0.4s;
+            -ms-transition:all linear 0.4s;
+            -o-transition:all linear 0.4s;
+        }
+        .modal .modal-footer .btn:hover{
+            margin-right:63px;
+        }
+
+        /* modal part ends */
+
+    /*=====================
+     spin part ends
+    ======================*/
+
+    /*=====================
+     plan part satrts
+    ======================*/
+    #plan {
+        padding-bottom: 75px;
+    }
+    #plan .plan-heading h4{
+        font-size:30px;
+        margin-top: -40px;
+    }
+    #plan .plan-item .item-quality h4{
+        padding-top: 20px;
+        padding-bottom: 2px;
+        font-size:27px;
+    }
+    #plan .plan-item .item-quality h4{
+        font-size:35px;
+    }
+    #plan .plan-item .item-quality p{
+        font-size: 17px;
+    }
+    #plan .plan-item .item-details ul {
+        margin-top: 19px;
+    }
+    #plan .plan-item .item-details ul li{
+        padding-bottom: 13px;
+    }
+    #plan .plan-item .item-btn{
+        left: 30%; 
+    }
+    #plan .plan-item .item-btn a{
+        padding:10px;
+    }
+    /*=====================
+     plan part ends
+    ======================*/
+
+    /*=====================
+     ask part starts
+    ======================*/
+    #ask {
+        padding-top: 65px;
+        padding-bottom: 73px;
+    }
+    #ask .ask-head-left h4{
+        font-size: 26px;
+    }
+    #ask #accordionExample .accordion-button{
+        font-size: 18px;
+    }
+    #ask #accordionExample .accordion-button i {
+        right: 10px;
+        top: 24px;
+        font-size: 22px;
+    }
+    #ask .ask-head-right h4 {
+        font-size: 26px;
+    }
+    #ask .ask-content .time-part h4{
+        margin-bottom:10px !important;
+    }
+    #ask .ask-content .time-part .countdown {
+        margin-bottom: 10px !important;
+    }
+    /*=====================
+     ask  part ends
+    ======================*/
+
+    /*=====================
+    subscribe part starts
+    ======================*/
+    #subscribe .frm form input{
+        width: 82%;
+    }
+    #subscribe .sub-img h4{
+        margin-top: 15px;
+    }
+    /*=====================
+     subscribe part ends
+    ======================*/
+
+    /*=====================
+     footer part starts
+    ======================*/
+    #footer .about-item{
+        margin-top: -20px;
+        margin-bottom: 39px;
+    }
+    #footer .link-item{
+        margin-left: -31px;
+        margin-bottom: 104px;
+    }
+    #footer .link-item ul li {
+        line-height:35px;
+    }
+    #footer .security-item{
+        margin-left:0;
+    }
+    #footer .security-item .info img {
+        margin-top: 16px;
+        width: 20%;
+    }
+    #footer .security-item .info p {
+        margin-left: 83px;
+    }
+    /*=====================
+     footer part ends
+    ======================*/
+}
+/*=========================
+extra small device ends
+==========================*/
+
+
+/*=====================
+small device satrts
+=======================*/
+@media (min-width:576px) and (max-width:767px){
+    /*====================
+       nav part starts
+    =======================*/
+    .navbar .navbar-brand {
+        padding:0 15px !important;
+    }
+    .navbar .navbar-toggler{
+        border-color: #fcb100;
+        margin-left: 254px;
+        margin-top: -38px;
+    }
+    .navbar .navbar-toggler i{
+        color:#fcb100;
+    }
+    .navbar .navbar-brand img {
+        width: 60% !important;
+        margin-top: -15px!important;
+    }
+    .navbar .navbar-toggler {
+        border-color: #fcb100;
+        margin-left:0px;
+        margin-top: 35px;
+    }
+    .navbar .btn a:first-child {
+        margin-left: 38px;
+    }
+    /*====================
+       nav part ends
+    =======================*/ 
+
+    /*====================
+       banner part satrts
+    =======================*/ 
+    #banner {
+        padding-bottom: 200px;
+    }
+    #banner .banner-image img {
+        /* position: unset !important; */
+        width: 140%;
+        left: -41px;
+    }
+    #banner .banner-text {
+        margin-top: 16px;
+        padding-left: 93px;
+    }
+    #banner .banner-text h1 {
+        font-size: 125px;
+        margin-top: 4px;
+        margin-left: 0px;
+    }
+    #banner .banner-text p {
+        margin-top: -4px;
+        padding-right: 38px;
+        line-height: 22px;
+    }
+    #banner .banner-text .btn {
+        margin-left:17px;
+    }
+    #banner .banner-text .btn a{
+        font-size:15px;
+    }
+    /*====================
+       banner part ends
+    =======================*/ 
+
+    /*====================
+      service part strats
+    =======================*/ 
+    #service .service-main .service-item {
+        padding: 10px;
+    }
+    /*====================
+      service  part ends
+    =======================*/ 
+
+    /*====================
+       games part satrts
+    =======================*/ 
+    #game{
+        padding-bottom: 60px;
+    }
+    #game .section-head h4{
+        font-size: 33px;
+        margin-top: -102px;
+    }
+    #game .game-item {
+        margin-top: 29px;
+    }
+    #game .game-item .game-ovarley .btn a {
+        font-size: 15px;
+        margin-top: -4px;
+    }
+    /*====================
+       games part ends
+    =======================*/ 
+
+    /*====================
+       spin  part starts
+    =======================*/ 
+    #spin {
+        padding-bottom: 53px;
+    }
+    #spin .spin-image {
+        margin-top: 33px;
+    }
+    #spin .spin-image .spin1 img{
+        margin-left: -26px;
+    }
+    #spin .spin3 {
+        left: -10px;
+        width: 75%;
+    }
+    #spin .spin-text h4 {
+        margin-top: -136px;
+        font-size: 33px;
+    }
+    #spin .spin-text p {
+        margin-top: 14px;
+        width: 270px;
+        font-size: 14px;
+    }
+    #spin .spin-text p:last-of-type {
+        margin-top: 15px;
+    }
+    #spin .spin-text .btn a{
+        margin-top: 29px;
+        font-size: 15px;
+    }
+        /* modal part strats */
+        .modal .modal-content {
+            width: 70%;
+        }
+        .modal .modal-content .modal-form .form-label{
+            margin-top: 15px;
+           font-size:15px;
+        }
+        .form-control{
+            margin-bottom: -19px;
+        }
+        .modal .modal-footer .btn{
+            margin-right: 79px;
+            transition:all linear 0.4s;
+            -webkit-transition:all linear 0.4s;
+            -moz-transition:all linear 0.4s;
+            -ms-transition:all linear 0.4s;
+            -o-transition:all linear 0.4s;
+        }
+        .modal .modal-footer .btn:hover{
+            margin-right: 79px;
+        }
+        /* modal part ends */
+
+    /*====================
+      spin part ends
+    =======================*/ 
+
+    /*====================
+      plan part starts
+    =======================*/
+    #plan .plan-heading h4{
+        margin-top: -30px;
+        font-size: 33px;
+    }
+    #plan .plan-item .item-quality h4 {
+        padding-top: 23px;
+        padding-bottom: 4px;
+        font-size:28px;
+    }
+    #plan .plan-item .item-quality h3{
+        font-size:34px;
+    }
+    #plan .plan-item .item-details ul {
+        margin-top: 19px;
+        margin-bottom: 0;
+    }
+    #plan .plan-item .item-details ul li {
+        padding-bottom: 12px;
+    }
+    #plan .plan-item .item-quality p {
+        margin-top: -4px;
+        padding-bottom: 16px;
+    }
+    #plan .plan-item .item-btn {
+        bottom: -14px;
+        left: 29%;
+    }
+    #plan .plan-item .item-btn a{
+        font-size:15px;
+    }
+    /*====================
+      plan part ends
+    =======================*/
+
+    /*=====================
+     ask part starts
+    ======================*/
+    #ask {
+        padding-top: 65px;
+        padding-bottom: 73px;
+    }
+    #ask .ask-head-left h4{
+        font-size: 33px;
+    }
+    #ask #accordionExample .accordion-button{
+        font-size: 15px;
+    }
+    #ask #accordionExample .accordion-button i {
+        right: 10px;
+        top: 24px;
+        font-size:22px;
+    }
+    #ask .ask-head-right h4 {
+        font-size: 33px;
+    }
+    #ask .ask-content .time-part h4{
+        margin-bottom:10px !important;
+    }
+    #ask .ask-content .time-part .countdown {
+        margin-bottom: 10px !important;
+    }
+    /*=====================
+     ask  part ends
+    ======================*/
+
+    /*=====================
+    subscribe part starts
+    ======================*/
+    #subscribe {
+        padding-bottom: 38px;
+    }
+    #subscribe .sub-img h4 {
+        margin-top: 20px;
+    }
+    /*=====================
+     subscribe part ends
+    ======================*/
+
+    /*=====================
+     footer part starts
+    ======================*/
+    #footer .about-item .social-icon {
+        margin-top: 20px;
+    }
+    #footer .link-item h3 {
+        margin-left: -15px;
+    }
+    #footer .about-item p {
+        margin-top: 15px;
+        line-height: 25px;
+        margin-right: 11px;
+    }
+    #footer .link-item ul {
+        margin-top: 6px;
+        margin-left: -43px;
+    }
+    #footer .link-item ul li {
+        line-height: 35px;
+    }
+    #footer .link-item .two {
+        margin-left: 92px;
+        margin-top: -193px;
+    }
+    #footer .security-item {
+        margin-top: 36px;
+        margin-left: 0px;
+    }
+    #footer .security-item .info p {
+        margin-top: -75px;
+        margin-left: 97px;
+    }
+    #footer .security-item .info img {
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    #footer .security-item .info p {
+        margin-top: -61px;
+        margin-left: 104px;
+    }
+    /*=====================
+     footer part ends
+    ======================*/
+}
+/*=====================
+small device ends
+=======================*/
+
+/*=====================
+medium device starts
+=======================*/
+@media(min-width:768px) and (max-width:991px) {
+    /*====================
+       nav part starts
+    =======================*/
+    .navbar .navbar-brand {
+        padding:0 15px !important;
+    }
+    .navbar .navbar-toggler{
+        border-color: #fcb100;
+        margin-left: 254px;
+        margin-top: 19px;
+    }
+    .navbar .navbar-toggler i{
+        color:#fcb100;
+    }
+    .navbar .navbar-brand img {
+        width: 60% !important;
+        margin-top: -15px!important;
+    }
+    .navbar .navbar-toggler {
+        border-color: #fcb100;
+        margin-left:0px;
+        margin-top: 35px;
+    }
+    .navbar .btn a:first-child {
+        margin-left: 38px;
+    }
+    /*====================
+       nav part ends
+    =======================*/ 
+
+    /*====================
+       banner part satrts
+    =======================*/ 
+    #banner {
+        padding-bottom: 175px;
+    }
+    #banner .banner-image img {
+        /* position: unset !important; */
+        width: 139%;
+        left: -15px;
+    }
+    #banner .banner-text {
+        margin-top: 16px;
+        padding-left: 153px;
+    }
+    #banner .banner-text h6{
+        margin-left: 27px;
+    }
+    #banner .banner-text h1{
+        font-size: 140px;
+        margin-top: 1px;
+        margin-left: 27px;
+    }
+    #banner .banner-text p {
+        margin-top: -4px;
+        padding-right: 10px;
+        line-height: 22px;
+    }
+    #banner .banner-text .btn {
+        margin-left: 32px;
+    }
+    #banner .banner-text .btn a{
+        font-size:18px;
+    }
+    /*====================
+       banner part ends
+    =======================*/ 
+
+    /*======================
+       service  part starts
+    =======================*/ 
+    #service .service-main .service-item h4 {
+        padding-top: 24px;
+        font-size: 40px;
+        padding-bottom: 7px;
+    }
+    #service .service-main .service-item h3{
+        font-size: 28px;
+    }
+    #service .service-main .service-item p {
+        padding-bottom: 35px;
+        margin-top: 18px;
+    }
+    /*====================
+      service part ends
+    =======================*/ 
+
+    /*====================
+       games part satrts
+    =======================*/ 
+    #game{
+        padding-bottom: 60px;
+    }
+    #game .section-head h4 {
+        font-size: 40px;
+        margin-top: -60px;
+    }
+    #game .game-item {
+        margin-top: 32px;
+    }
+    #game .game-item .game-ovarley .btn {
+        margin-top: 5px;
+    }
+    #game .game-item .game-ovarley .btn a {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    /*====================
+       games part ends
+    =======================*/ 
+
+    /*====================
+       spin  part starts
+    =======================*/ 
+    #spin {
+        padding-bottom: 53px;
+    }
+    #spin .spin-image {
+        margin-top: 33px;
+    }
+    #spin .spin-image .spin1 img{
+        margin-left: -26px;
+    }
+    #spin .spin3 {
+        left: -10px;
+        width: 75%;
+    }
+    #spin .spin-text {
+        margin-top: 25px;
+        margin-left: 55px;
+    }
+    #spin .spin-text h4{
+        font-size: 40px;
+    }
+    #spin .spin-text p {
+        margin-top: 16px;
+        width: 292px;
+        font-size: 15px;
+    }
+    #spin .spin-text p:last-of-type {
+        margin-top: 15px;
+    }
+    #spin .spin-text .btn a{
+        margin-top: 26px;
+        font-size: 18px;
+    }
+        /* modal part strats */
+        .modal .modal-content {
+            width: 80%;
+        }
+        .modal .modal-content .modal-form .form-label{
+            margin-top: 15px;
+           font-size:20px;
+        }
+        .form-control{
+            margin-bottom: -4px;
+        }
+        .modal .modal-footer .btn{
+            margin-right: 88px;
+            transition:all linear 0.4s;
+            -webkit-transition:all linear 0.4s;
+            -moz-transition:all linear 0.4s;
+            -ms-transition:all linear 0.4s;
+            -o-transition:all linear 0.4s;
+        }    
+        .modal .modal-footer .btn:hover{
+            margin-right: 88px;
+        }
+        /* modal part ends */
+
+    /*====================
+      spin part ends
+    =======================*/ 
+
+    /*====================
+      plan part starts
+    =======================*/
+    #plan {
+        padding-bottom: 63px;
+    }
+    #plan .plan-heading h4 {
+        margin-top: -37px;
+        font-size: 40px;
+    }
+    #plan .plan-item .item-quality h4 {
+        padding-top: 20px;
+        padding-bottom: 7px;
+        font-size: 30px;
+    }
+    #plan .plan-item .item-quality h3{
+        font-size:34px;
+    }
+    #plan .plan-item .item-quality p {
+        margin-top: 0px;
+        padding-bottom: 14px;
+    }
+    #plan .plan-item .item-details ul {
+        margin-top: 26px;
+    }
+    #plan .plan-item .item-details ul li {
+        padding-bottom: 14px;
+    }
+    #plan .plan-item .item-btn {
+        bottom: -11px;
+        left: 27%;
+    }
+    #plan .plan-item .item-btn a{
+        font-size:18px;
+    }
+    /*====================
+      plan part ends
+    =======================*/
+
+    /*====================
+      ask part strats
+    =======================*/
+    #ask {
+        padding-top: 58px;
+        padding-bottom: 70px;
+    }
+    #ask .ask-head-left h4{
+        font-size: 32px;
+    }
+    #ask #accordionExample .accordion-button i {
+        right: 21px;
+        top: 21px;
+        font-size: 23px;
+    }
+    .accordion-body{
+        padding-right: 10px;
+    }
+    #ask .ask-head-right h4{
+        font-size: 32px;
+    }
+    #ask .ask-content .time-part .countdown {
+        margin-bottom: 10px !important;
+    }
+    #ask .ask-content .scroll-part .scroll-item {
+        line-height: 50px;
+    }
+    /*====================
+      ask part ends
+    =======================*/
+
+    /*======================
+      subscribe part starts
+    =======================*/
+    #subscribe{
+        padding-bottom: 45px;
+    }
+    #subscribe .frm form input{
+        width: 81%;
+    }
+    /*======================
+       subscribe part ends
+    =======================*/
+
+    /*======================
+       footer part starts
+    =======================*/
+    #footer .about-item p {
+        margin-top: 23px;
+        line-height: 25px;
+        margin-right: 13px;
+    }
+    #footer .about-item .social-icon {
+        margin-top: 24px;
+        padding-bottom: 41px;
+    }
+    #footer .about-item .social-icon i {
+        width: 45px;
+        height: 45px;
+        margin-right: 4px;
+    }
+    #footer .link-item h3 {
+        margin-left: -4px;
+    }
+    #footer .link-item ul {
+        margin-top: 13px;
+        margin-left: -35px;
+    }
+    #footer .link-item ul li {
+        line-height: 38px;
+    }
+    #footer .link-item .two {
+        margin-left: 158px;
+        margin-top: -208px;
+    }
+    #footer .security-item {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    #footer .security-item .info img {
+        margin-top: -1px;
+    }
+    #footer .security-item .info p {
+        margin-top: -85px;
+        margin-left: 104px;
+    }
+    /*======================
+      footer  part ends
+    =======================*/
+}
+/*=====================
+medium  device ends
+=======================*/
+
+/*=====================
+large  device starts
+=======================*/
+@media(min-width:992px) and (max-width:1199px) {
+    /*====================
+       nav part starts
+    =======================*/
+    .navbar .navbar-brand {
+        padding:0 15px !important;
+    }
+    .navbar .navbar-brand img {
+        width: 90% !important;
+        margin-top: -15px!important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .navbar-light .navbar-nav .nav-link:last-child{
+        margin-left:3px;
+    }
+    .navbar .btn a:first-child {
+        margin-left: 29px;
+    }
+    /*====================
+       nav part ends
+    =======================*/
+    
+    /*====================
+       banner part satrts
+    =======================*/ 
+    #banner {
+        padding-bottom: 175px;
+    }
+    #banner .banner-image img {
+        /* position: unset !important; */
+        width: 123%;
+        left: -35px;
+    }
+    #banner .banner-text {
+        margin-top: 16px;
+        padding-left: 153px;
+    }
+    #banner .banner-text h6 {
+        margin-left: 0px;
+    }
+    #banner .banner-text h1{
+        font-size: 250px;
+        margin-top:-16px;
+    }
+    #banner .banner-text p {
+        padding-right: 6px;
+    }
+    #banner .banner-text .btn {
+        margin-left: 67px;
+    }
+    #banner .banner-text .btn a{
+        font-size:19px;
+    }
+    /*====================
+       banner part ends
+    =======================*/ 
+
+    /*====================
+       games part satrts
+    =======================*/ 
+    #game{
+        padding-bottom: 60px;
+    }
+    #game .section-head h4 {
+        font-size: 45px;
+        margin-top: -60px;
+    }
+    #game .game-item {
+        margin-top: 32px;
+    }
+    #game .game-item .game-ovarley .btn {
+        margin-top: 5px;
+    }
+    #game .game-item .game-ovarley .btn a {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+    /*====================
+       games part ends
+    =======================*/ 
+
+     /*====================
+       spin  part starts
+    =======================*/ 
+    #spin {
+        padding-top: 30px;
+        padding-bottom: 53px;
+    }
+    #spin .spin-image {
+        margin-top: 33px;
+    }
+    #spin .spin-image .spin1 img{
+        margin-left: -26px;
+    }
+    #spin .spin3 {
+        left: -10px;
+        width: 75%;
+    }
+    #spin .spin-text {
+        margin-top: 32px;
+        margin-left: 37px;
+    }
+    #spin .spin-text h4 {
+        font-size: 45px;
+    }
+    #spin .spin-text p {
+        margin-top: 16px;
+        width: 383px;
+        font-size: 16px;
+    }
+    #spin .spin-text p:last-of-type {
+        margin-top: 35px;
+    }
+    #spin .spin-text .btn a {
+        margin-top: 42px;
+        font-size: 19px;
+    }
+    /*====================
+      spin part ends
+    =======================*/ 
+
+    /*====================
+      plan part starts
+    =======================*/
+    #plan {
+        padding-top:119px;
+        padding-bottom: 93px;
+    }
+    #plan .plan-item{
+        margin-top: 58px;
+    }
+    #plan .plan-heading h4 {
+        margin-top: -70px;
+        font-size: 45px;
+    }
+    #plan .plan-item .item-quality h4 {
+        padding-top: 20px;
+        padding-bottom: 7px;
+        font-size: 32px;
+    }
+    #plan .plan-item .item-quality h3{
+        font-size:44px;
+    }
+    #plan .plan-item .item-btn a{
+        font-size:19px;
+    }
+    /*====================
+      plan part ends
+    =======================*/
+
+    /*====================
+      ask part strats
+    =======================*/
+    #ask {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    #ask .ask-head-left h4{
+        font-size: 38px;
+    }
+    #ask #accordionExample .accordion-button i {
+        right: 21px;
+        top: 21px;
+        font-size: 23px;
+    }
+    .accordion-body{
+        padding-right: 10px;
+    }
+    #ask .ask-head-right h4{
+        font-size: 38px;
+    }
+    #ask .ask-content .time-part .countdown {
+        margin-right:10px;
+    }
+    #ask .ask-content .scroll-part .scroll-item {
+        line-height: 50px;
+    }
+    /*====================
+      ask part ends
+    =======================*/
+
+    /*======================
+      subscribe part starts
+    =======================*/
+    #subscribe{
+        padding-bottom: 45px;
+    }
+    #subscribe .frm form input{
+        width: 88%;
+    }
+    /*======================
+       subscribe part ends
+    =======================*/
+
+    /*======================
+       footer part starts
+    =======================*/
+    #footer .about-item p {
+        margin-top: 23px;
+        line-height: 25px;
+        margin-right: 13px;
+    }
+    #footer .about-item .social-icon {
+        margin-top: 24px;
+        padding-bottom: 41px;
+    }
+    #footer .about-item .social-icon i {
+        width: 50px;
+        height: 50px;
+        margin-right: 8px;
+    }
+    #footer .link-item h3 {
+        margin-left: -4px;
+    }
+    #footer .link-item ul {
+        margin-top: 13px;
+        margin-left: -35px;
+    }
+    #footer .link-item ul li {
+        line-height: 38px;
+    }
+    #footer .link-item .two {
+        margin-left: 158px;
+        margin-top: -208px;
+    }
+    #footer .security-item {
+        margin-top: 0px;
+        margin-left: 64px;
+    }
+    #footer .security-item .info img {
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+    #footer .security-item .info p {
+        margin-top: -85px;
+        margin-left: 104px;
+    }
+    /*======================
+      footer  part ends
+
+
+    
+
+
+}
+/*=====================
+large  device ends
+=======================*/
+
+
